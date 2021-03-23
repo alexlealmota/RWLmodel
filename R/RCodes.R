@@ -50,7 +50,7 @@
 #'@importFrom gamlss.dist checklink
 #'
 #'@export
-
+#versão atual
 RWL <- function (mu.link = "log" , sigma.link="log")
 {
   mstats <- checklink("mu.link", "RWL", substitute(mu.link),
